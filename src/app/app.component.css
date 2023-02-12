@@ -1,3 +1,31 @@
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border: 3px solid white;
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+}
 img {
     width: 30%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 30px 20px;
+    transition: ease 2s;
+}
+
+button:hover {
+    background-color: black;
+    color: yellow;
+    
+}
+body {
+    background-color: black;
 }
